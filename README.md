@@ -1,3 +1,4 @@
 # hangman
 
-(load "hangman.lisp") in SBCL
+# To Run
+run (load "hangman.lisp") in SBCL
