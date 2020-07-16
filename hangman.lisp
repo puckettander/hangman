@@ -1,5 +1,3 @@
-
-
 (defun show-secret (secret-word)
   (coerce
    (loop for char across secret-word
@@ -30,11 +28,3 @@
     return (print "YOU WIN")
   when (= wrong-guesses-left 0)
     return (print "too many guesses, GAME OVER"))
-
-
-     
-     
-
-
-
-
